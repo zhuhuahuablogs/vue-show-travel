@@ -114,7 +114,7 @@
       </Row>
       <div style="margin-top: 30px;border-top: 1px dashed #bbb;padding-top: 30px">
         <div class="clearfix mbB20">
-            <div class="fl">
+            <div class="fl" style="border-bottom: 2px solid #f18d00">
               <h2 class="H2 warning">热门游记</h2>
             </div>
             <div class="fr">
@@ -131,9 +131,37 @@
                 <dd>
                   <a class="youji-contain">
                     写在最前面 如果说提起去 美国 那差不多要追溯到2014年吧 也许只是因为 美国 的音乐和电影
+                    美国 成为一个陌生但向往的地方 从大学期间就萌生的旅行念头 使得我说走就走的拿起那年夏天才办的
+                    写在最前面 如果说提起去 美国 那差不多要追溯到2014年吧 也许只是因为 美国 的音乐和电影
+                    美国 成为一个陌生但向往的地方 从大学期间就萌生的旅行念头 使得我说走就走的拿起那年夏天才办的
+                    写在最前面 如果说提起去 美国 那差不多要追溯到2014年吧 也许只是因为 美国 的音乐和电影
                     美国 成为一个陌生但向往的地方 从大学期间就萌生的旅行念头 使得我说走就走的拿起那年夏天才办的...
                   </a>
                 </dd>
+                <dd class="youji-bar">
+                  <Icon type="eye" style="margin-right: 5px"></Icon><span style="color: #f18d00">1人浏览过</span>
+                  <Icon type="ios-location"  style="margin-left: 15px;margin-right: 5px"></Icon><span style="color: #3fad7e">大理</span>
+                  <Icon type="ios-body-outline" style="margin-left: 20px;margin-right: 5px"></Icon><span style="color: brown">阿浩</span>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="youji-box leader-chunk-body-remen clearfix">
+            <img class="youji-img" src="~assets/img/remen1.jpeg" alt="">
+            <div class="youji-box-dody">
+              <dl>
+                <dt><a class="youji-title">当迪士尼遇上法式风情</a></dt>
+                <dd>
+                  <a class="youji-contain">
+                    写在最前面 如果说提起去 美国 那差不多要追溯到2014年吧 也许只是因为 美国 的音乐和电影
+                    美国 成为一个陌生但向往的地方 从大学期间就萌生的旅行念头 使得我说走就走的拿起那年夏天才办的...
+                  </a>
+                </dd>
+                  <dd class="youji-bar">
+                    <Icon type="eye" style="margin-right: 5px"></Icon><span style="color: #f18d00">1人浏览过</span>
+                    <Icon type="ios-location"  style="margin-left: 15px;margin-right: 5px"></Icon><span style="color: #3fad7e">大理</span>
+                    <Icon type="ios-body-outline" style="margin-left: 20px;margin-right: 5px"></Icon><span style="color: brown">阿浩</span>
+                  </dd>
               </dl>
             </div>
           </div>
@@ -141,6 +169,9 @@
           <Col span="6">
           </Col>
         </Row>
+        <div class="youji-page">
+          <Page :total="40" size="small" show-elevator show-sizer></Page>
+        </div>
       </div>
     </div>
 
@@ -226,6 +257,12 @@
       }
 
       .youji-box{
+        margin-bottom: 30px;
+        padding: 20px;
+        padding-left: 0;
+        &:hover{
+          background: #f8f8f8;
+        }
         img{
           cursor: pointer;
           display: block;
@@ -254,11 +291,22 @@
             }
           }
           .youji-contain{
+            display: block;
+            overflow: hidden;
+            height: 82px;
             font: 14px/20px 'Adobe 黑体 Std R';
             color: #666;
           }
+          .youji-bar{
+            margin-top: 5px;
+          }
         }
       }
+    }
+
+    .youji-page{
+      margin-top: 50px;
+      text-align: center;
     }
 
     .H2{

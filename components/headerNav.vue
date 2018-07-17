@@ -15,13 +15,14 @@
            <li style="list-style: none" :class="routerActive=='/notes'?'active':''" @click="gotoRoute('/notes')"><a href="javascript:void (0)">写游记</a></li>
          </ul>
          <ul class="clearfix fr">
-           <li style="list-style: none" :class="routerActive=='/login'?'active':''" @click="gotoRoute('/login')"><a href="javascript:void (0)">登陆</a></li>
+           <li style="list-style: none" :class="routerActive=='/login'?'active':''" @click="gotoRoute('/login')"><span class="login">登陆</span></li>
            <li style="list-style: none" class="line"><a href="javascript:void (0)">|</a></li>
-           <li style="list-style: none" :class="routerActive=='/regisetr'?'active':''" @click="gotoRoute('/regisetr')"><a href="javascript:void (0)">注册</a></li>
+           <li style="list-style: none" :class="routerActive=='/regisetr'?'active':''" @click="gotoRoute('/regisetr')"><span class="register">注册</span></li>
          </ul>
        </nav>
     </div>
     <div class="headerH"></div>
+    <div class="shadow-nav"></div>
   </div>
 </template>
 
@@ -44,8 +45,17 @@
 </script>
 <style lang="less">
   #headerNav{
+    position:relative ;
     .headerH{
       height: 73px;
+    }
+    .shadow-nav{
+      height: 1px;
+      background-color: rgba(0,0,0,.06);
+      position: absolute;
+      bottom: 4px;
+      width: 100%;
+      z-index: 200;
     }
     .headerNav-box{
       width: 100%;
@@ -74,7 +84,7 @@
           li{
             background: none;
             float: left;
-            a{
+            .login,.register,a{
               color: #333333 ;
               line-height: 68px;
               height: 68px;
@@ -90,6 +100,10 @@
                 border-bottom: 3px solid #ff9d00;
               }
             }
+            .login,.register{
+              color:#ff9d00 !important;
+            }
+
           }
           .line{
             a{
