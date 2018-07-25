@@ -22,7 +22,8 @@ module.exports = {
   plugins: [
     { src: '~plugins/flexible.js', ssr: false },
     { src: '~plugins/iview.js', ssr: true },
-    { src: '~plugins/axiosRequest.js', ssr: true }
+    { src: '~plugins/axiosRequest.js', ssr: true },
+    { src: '~plugins/Vue-Quill-Editor.js', ssr: false }
   ],
   loading: './components/loading.vue',
   cache: true,

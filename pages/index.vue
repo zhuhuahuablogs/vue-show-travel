@@ -1,7 +1,10 @@
 <template>
   <div id="First">
     <header-nav></header-nav>
-    <nuxt-child/>
+    <div style="min-height: 800px">
+      <nuxt-child/>
+    </div>
+    <footer-bar></footer-bar>
   </div>
 </template>
 
@@ -9,6 +12,7 @@
   import { mapState } from 'vuex'
   import a from '../components/loading.vue'
   import headerNav from '../components/headerNav.vue'
+  import footerBar from '../components/footerBar.vue'
   export default {
     middleware: 'auth',  //定义页面中间件
     head () {
@@ -24,7 +28,7 @@
       }
     },
     components:{
-      headerNav
+      headerNav,footerBar
     }
   }
 </script>

@@ -100,8 +100,135 @@
           <a :class="themeActive=='目的地特色'?'theme-index on':'theme-index ' " @click="setthemeActive('目的地特色')">目的地特色</a>
           <a :class="themeActive=='私人海滩'?'theme-index on':'theme-index ' " @click="setthemeActive('私人海滩')">私人海滩</a>
         </div>
+        <div style="margin-top: 30px">
+          <Row :gutter="16">
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <div class="area-img-info">
+                <p class="area-specific-name">罗滕堡</p>
+                <p class="area-city-name">德国</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <div class="area-img-info">
+                <p class="area-specific-name">罗滕堡</p>
+                <p class="area-city-name">德国</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <div class="area-img-info">
+                <p class="area-specific-name">罗滕堡</p>
+                <p class="area-city-name">德国</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <div class="area-img-info">
+                <p class="area-specific-name">罗滕堡</p>
+                <p class="area-city-name">德国</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <div class="area-img-info">
+                <p class="area-specific-name">罗滕堡</p>
+                <p class="area-city-name">德国</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <div class="area-img-info">
+                <p class="area-specific-name">罗滕堡</p>
+                <p class="area-city-name">德国</p>
+              </div>
+            </div>
+            </Col>
+          </Row>
+        </div>
       </div>
 
+      <div class="theme-hotel">
+        <h2 class="h-title">特价酒店</h2>
+        <div class="themeList clearfix">
+          <a :class="SpecialpriceActive=='曼谷'?'theme-index on':'theme-index ' " @click="setSpecialpriceActive('曼谷')">曼谷</a>
+          <a :class="SpecialpriceActive=='台北'?'theme-index on':'theme-index ' " @click="setSpecialpriceActive('台北')">台北</a>
+          <a :class="SpecialpriceActive=='东京'?'theme-index on':'theme-index ' " @click="setSpecialpriceActive('东京')">东京</a>
+          <a :class="SpecialpriceActive=='香港'?'theme-index on':'theme-index ' " @click="setSpecialpriceActive('香港')">香港</a>
+          <a :class="SpecialpriceActive=='首尔'?'theme-index on':'theme-index ' " @click="setSpecialpriceActive('首尔')">首尔</a>
+          <a :class="SpecialpriceActive=='新加坡'?'theme-index on':'theme-index ' " @click="setSpecialpriceActive('新加坡')">新加坡</a>
+        </div>
+        <div style="margin-top: 30px;margin-bottom: 100px">
+          <Row :gutter="16">
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <span class="scope">8.4分</span>
+              <div class="area-special-info">
+                <p class="area-special-info-title">曼谷威客3号酒店（原曼谷胜利纪念碑全季酒店）</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <span class="scope">8.4分</span>
+              <div class="area-special-info">
+                <p class="area-special-info-title">曼谷威客3号酒店（原曼谷胜利纪念碑全季酒店）</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <span class="scope">8.4分</span>
+              <div class="area-special-info">
+                <p class="area-special-info-title">曼谷威客3号酒店（原曼谷胜利纪念碑全季酒店）</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <span class="scope">8.4分</span>
+              <div class="area-special-info">
+                <p class="area-special-info-title">曼谷威客3号酒店（原曼谷胜利纪念碑全季酒店）</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <span class="scope">8.4分</span>
+              <div class="area-special-info">
+                <p class="area-special-info-title">曼谷威客3号酒店（原曼谷胜利纪念碑全季酒店）</p>
+              </div>
+            </div>
+            </Col>
+            <Col span="8">
+            <div class="area-img">
+              <img src="~assets/img/seasion_population/bujidao.png" alt="">
+              <span class="scope">8.4分</span>
+              <div class="area-special-info">
+                <p class="area-special-info-title">曼谷威客3号酒店（原曼谷胜利纪念碑全季酒店）</p>
+              </div>
+            </div>
+            </Col>
+          </Row>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -113,7 +240,8 @@
         hotelarea:'',
         hotelnum:'',
         showareaList:0,
-        themeActive:'浪漫花海'
+        themeActive:'浪漫花海',
+        SpecialpriceActive:'曼谷'
       }
     },
     mounted(){
@@ -136,6 +264,9 @@
       },
       setthemeActive(val){
         this.themeActive = val
+      },
+      setSpecialpriceActive(val){
+        this.SpecialpriceActive = val
       }
     },
     destroyed(){
@@ -272,7 +403,61 @@
             border-bottom: 3px solid #ff8a00;
             margin-bottom: -2px;
           }
-
+        }
+        .area-img{
+          position: relative;
+          width: 318px;
+          cursor: pointer;
+          height: 240px;
+          margin-bottom: 20px;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+          .area-img-info{
+            position: absolute;
+            top:0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            height: 50px;
+            p{
+              margin-bottom: 10px;
+              text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+              text-align: center;
+              color: white;
+              font: 24px/24px "Adobe 宋体 Std L";
+            }
+            .area-city-name{
+              font-size: 18px;
+            }
+          }
+          &:hover{
+            opacity: 0.9;
+          }
+          .scope{
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            display: block;
+            padding: 0px 4px;
+            background: rgba(0,0,0,0.5);
+            color: white;
+            border-radius: 4px;
+            font-size: 18px;
+          }
+          .area-special-info{
+            position: absolute;
+            left: 15px;
+            width: 80%;
+            bottom: 15px;
+            p{
+              text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+              color: white;
+              font-size: 14px;
+            }
+          }
         }
       }
     }

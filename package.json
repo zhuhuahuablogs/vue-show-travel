@@ -17,7 +17,8 @@
     "iview": "^2.7.3",
     "jquery": "^3.3.1",
     "nuxt": "^1.0.0-rc11",
-    "vue-concise-slider": "^2.4.8"
+    "vue-concise-slider": "^2.4.8",
+    "vue-quill-editor": "^3.0.5"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
